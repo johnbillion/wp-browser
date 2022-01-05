@@ -42,6 +42,7 @@ docker_pull: ## Pull all the Docker images this repository will use in building 
 		'lucatume/composer:php7.2' \
 		'lucatume/composer:php7.3' \
 		'lucatume/composer:php7.4' \
+		'lucatume/composer:php8.0' \
 	); \
 	for image in "$${images[@]}"; do \
 		docker pull "$$image"; \
